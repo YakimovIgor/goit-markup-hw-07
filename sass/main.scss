@@ -1,1 +1,5 @@
-@import "./utils/variables"
+@import "./base/normolaze";
+@import "./utils/variables";
+@import "./utils/basic-styles";
+@import "./components/header";
+@import "./components/logo";

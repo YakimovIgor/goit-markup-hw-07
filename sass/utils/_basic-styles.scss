@@ -1,0 +1,28 @@
+body {
+    background-color: $color;
+    color: $color;
+    letter-spacing: $primary-letter-spacing;
+    font-family: $primaty-font-family;
+    font-size: $font-size;
+    background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

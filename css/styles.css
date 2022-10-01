@@ -13,7 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  color: var(--header-color);
   background-color: var(--color);
 }
 
@@ -259,16 +258,14 @@ p {
   transition: color var(--animation-modal);
 }
 
-.mailto-link,
-.telephone-link {
+.mailto__link,
+.telephone__link {
   fill: currentColor;
   transition: fill var(--animation-modal);
 }
 
-..mailto-link,
-.telephone-link:hover,
-.mailto-link,
-.telephone-link:focus {
+.telephone__link:hover,
+.telephone__link:focus {
   fill: var(--accent-color);
 }
 
