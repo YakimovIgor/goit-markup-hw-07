@@ -1,3 +1,11 @@
 @mixin border($color) {
     border: 1px solid $color;
 }
+
+@mixin list() {
+    list-style: none;
+} 
+
+@mixin link() {
+    text-decoration: none;
+}

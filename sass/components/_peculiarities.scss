@@ -1,0 +1,44 @@
+.peculiarities__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    column-gap: 30px;
+}
+
+.list__about {
+    width: 270px;
+}
+
+.peculiarities__antenna,
+.peculiarities__clock,
+.peculiarities__plane,
+.peculiarities__astronaut {
+    display: flex;
+}
+
+.peculiarities {
+    justify-content: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    height: 120px;
+    align-items: center;
+}
+
+.peculiarities__title {
+    color: $primary-text-color;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.peculiarities__text {
+    display: flex;
+        padding: 0;
+        margin: 0;
+        column-gap: 30px;
+        
+    line-height: 1.71;
+    color: $primary-text-color;
+}

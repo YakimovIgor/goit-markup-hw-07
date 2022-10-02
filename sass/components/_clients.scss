@@ -1,0 +1,44 @@
+.constant__clients {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: $color-tittle;
+}
+
+.company__items {
+    display: flex;
+    column-gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.company__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    width: 170px;
+    height: 92px;
+    color: $icon-color;
+    transition: border $animation-modal, color $animation-modal;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+            border-color: $accent-color;
+    }
+}
+
+.company__picture {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+
+
