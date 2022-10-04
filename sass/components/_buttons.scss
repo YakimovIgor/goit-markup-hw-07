@@ -1,0 +1,76 @@
+.section__hero__button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    background: $accent-btn-color;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $color;
+    border: none;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+}
+
+.active_button {
+    padding: 6px 22px;
+
+    color: $color;
+    background: $accent-btn-color;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+            color: $color;
+    }
+}
+
+.portfolio__nav__button {
+    padding: 6px 22px;
+
+    color: $header-color;
+    background-color: #f5f4fa;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color $animation-modal,
+        background-color $animation-modal, box-shadow $animation-modal;
+
+        &:hover,
+        &:focus {
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                    0px 2px 2px rgba(0, 0, 0, 0.12);
+                background-color: $accent-btn-color;
+                color: $color;
+        }
+}

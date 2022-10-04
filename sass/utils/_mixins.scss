@@ -9,3 +9,7 @@
 @mixin link() {
     text-decoration: none;
 }
+
+@mixin list-gap {
+    list-gap: 30px;
+}
