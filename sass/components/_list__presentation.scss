@@ -12,7 +12,7 @@
         
 }
 
-.post_list__presentation {
+.post__list__presentation {
     margin-top: 30px;
         margin-left: 30px;
         flex-basis: calc(100% / 3 - #{$list-gap});
@@ -20,7 +20,7 @@
 
 
 
-.list__presentation .post__link {
+.post__link {
     display: block;
     cursor: pointer;
     transition: box-shadow $animation-modal;
@@ -30,7 +30,7 @@
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
             1px 4px 6px rgba(0, 0, 0, 0.16);
     }
-
+}
 
 
 .post__image {
@@ -39,7 +39,8 @@
     &:hover .post__text {
             transform: translateY(0);
         }
-}
+    }
+
 
 .post__image:hover .post__text {
     transform: translateY(0);
@@ -88,15 +89,3 @@
     border: 1px solid #eeeeee;
 }
 
-.demonstration-image-techno,
-.demonstration-image-basketball,
-.demonstration-image-fish,
-.demonstration-image-headphones,
-.demonstration-image-boxes,
-.demonstration-image-monitor,
-.demonstration-image-book,
-.demonstration-image-lab,
-.demonstration-image-notebook {
-  background: $color;
-@include border();
-}
