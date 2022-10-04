@@ -97,8 +97,6 @@
 .demonstration-image-book,
 .demonstration-image-lab,
 .demonstration-image-notebook {
-  background: var(--color);
-border: 1px solid #eeeeee;
+  background: $color;
+@include border();
 }
-
-
