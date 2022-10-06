@@ -24,13 +24,7 @@
     fill: currentColor;
 }
 
-.section__comand__title {
-    color: $color-tittle;
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
+
 
 .section__comand__list {
     display: flex;
@@ -40,7 +34,7 @@
 }
 
 .section__post {
-    background: var(--color);
+    background: $color;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
@@ -50,7 +44,7 @@
 .section__comand__image__fourth {
     max-width: 100%;
     height: auto;
-    background: var(--color);
+    background: $color;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -73,23 +67,3 @@
     color: $primary-text-color;
 }
 
-.social__links {
-    display: flex;
-    padding: 0;
-    column-gap: 10px;
-    padding-bottom: 30px;
-    justify-content: center;
-}
-
-.link {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: $header-color;
-    transition: color $animation-modal;
-
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
-}
